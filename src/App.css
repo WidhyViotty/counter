@@ -6,5 +6,9 @@ header{
 i.fa-solid.fa-calculator{
   position: absolutes;
   background: #5C48D3;
+}
 
+.container{
+  display: flex;
+  align-items: center;
 }

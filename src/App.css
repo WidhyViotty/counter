@@ -1,3 +1,11 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 header{
   height: 80px;
   border-bottom: solid #F9F9F9 ;
@@ -11,4 +19,40 @@ i.fa-solid.fa-calculator{
 .container{
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+button{
+  background-color: #5C48D3;
+  color: white;
+  border-radius: 10%;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  font-size: x-large;
+}
+.button_reset{
+  background-color: #5C48D3;
+  color: white;
+  border-radius: 10%;
+  height: 60px;
+  width: 90px;
+
+}
+.output{
+  background-color: lightgray;
+  color: black;
+  border-radius: 10%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+footer{
+  display: flex;
+  align-items: flex-end  ;
+  font-size: smaller;
 }
